@@ -192,7 +192,7 @@ lord-icon {
   top: 0;
   bottom: 0;
   position: absolute;
-  background: linear-gradient(124deg, #ff8787, #ff0000, #ff8787, #ff0000, #ff8787, #ff0000);
+  background: linear-gradient(124deg, #dfdfdf, #2b2b2b, #dfdfdf, #2b2b2b, #dfdfdf, #2b2b2b);
   background-size: 1800% 1800%;
 
   -webkit-animation: rainbow 18s ease infinite;
