@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@700&family=Arvo&display=swap");
+body {
+  font-family: "Amiko", sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Arvo", serif;
+}
+
+.fullPageScrollSection {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fullPageScrollSection .text {
+  width: 400px;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+}
+.container .fullPageScrollSection:nth-child(1) {
+  background-color: #bed;
+  color: #528484;
+}
+.container .fullPageScrollSection:nth-child(2) {
+  background-color: #006661;
+  color: #f49095;
+}
+.container .fullPageScrollSection:nth-child(3) {
+  background-color: #202020;
+  color: #ff0080;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #73737399;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  transition: 1px;
+  border-width: 10px;
+}
+
+.marker {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
